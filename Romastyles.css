@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    
+  }
+
+  .output-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.output {
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+    overflow-wrap: break-word; /* Romper el texto si supera el ancho disponible */
+}
+
+.output-text {
+    margin-bottom: auto; /* Espaciado entre el texto y su valor */
+}
+  
